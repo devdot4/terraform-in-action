@@ -19,7 +19,7 @@ to check if everything works before applying.
 
 `t apply` + `yes` when prompted (or `t apply $aa` if you want to speed it up).
 ```
-mike@workOS listing-1.1 % t apply
+mike@work listing-1.1 % t apply
 
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
   + create
@@ -139,5 +139,18 @@ aws_instance.hello-world: Still creating... [40s elapsed]
 aws_instance.hello-world: Creation complete after 45s [id=i-0d33f90ada7dcd2e7]
 
 Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
-mike@workOS listing-1.1 %
+mike@work listing-1.1 %
+```
+![1.1](1.1.png)
+After the instance is made, you can safely do the following:
+`t destroy` + `yes` (or `t destroy $aa`)
+```
+aws_instance.hello-world: Destroying... [id=i-0d33f90ada7dcd2e7]
+aws_instance.hello-world: Still destroying... [id=i-0d33f90ada7dcd2e7, 10s elapsed]
+aws_instance.hello-world: Still destroying... [id=i-0d33f90ada7dcd2e7, 20s elapsed]
+aws_instance.hello-world: Still destroying... [id=i-0d33f90ada7dcd2e7, 30s elapsed]
+aws_instance.hello-world: Destruction complete after 31s
+
+Destroy complete! Resources: 1 destroyed.
+mike@work listing-1.1 %
 ```
