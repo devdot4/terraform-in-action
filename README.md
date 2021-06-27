@@ -1,4 +1,7 @@
-# terraform-in-action
+# Terraform In Action
+<img src="tia.png" width=50%>
+
+[**Buy Terraform In Action Here**](https://www.manning.com/books/terraform-in-action?query=terraform%20in%20action)
 
 **Aliases used**:  
 (add these into your `~/.bashrc`, `~/.bash_profile`, `~/.zhrc`, etc. and use `source` command to apply them.)
