@@ -1,5 +1,5 @@
 # Terraform In Action
-<img src="tia.png" width=40%>
+![Terraform In Action](tia.png)
 
 [**Buy Terraform In Action Here**](https://www.manning.com/books/terraform-in-action?query=terraform%20in%20action)
 
