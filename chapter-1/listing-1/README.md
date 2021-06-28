@@ -1,6 +1,6 @@
 # Chapter-1
 
-`chapter-1/listing-1.1/main.tf`
+`chapter-1/listing-1/1.2/main.tf`
 ```
 provider "aws" {
   region = "us-west-2"
