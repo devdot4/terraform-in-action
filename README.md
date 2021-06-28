@@ -10,7 +10,7 @@ alias t=terraform
 export $aa="-auto-approve"
 ```
 ---
-## Chapter 1
+### Chapter 1
 ##
 **Hello World!**  
 [**Documentation**](https://github.com/devdot4/terraform-in-action/tree/main/chapter-1/listing-1#chapter-1)
