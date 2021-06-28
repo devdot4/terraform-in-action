@@ -1,6 +1,25 @@
 # Chapter-1
+**Section 1.1** |
+-
+`chapter-1/listing-1/1.1/main.tf`
 
+Create a file called `main.tf` and add this snippet inside:
+```
+resource "aws_instance" "helloworld" {
+  ami           = "ami-09dd2e08d601bff67"
+  instance_type = "t2.micro"
+  tags = {
+    Name = "HelloWorld"
+  }
+}
+```
+This will work but it will ask you to input where you want to create EC2 (region).
+
+**Section 1.2** |
+-
 `chapter-1/listing-1/1.2/main.tf`
+
+We will add region module to hard-code our answer.
 ```
 provider "aws" {
   region = "us-west-2"
@@ -14,6 +33,36 @@ resource "aws_instance" "hello-world" {
   }
 }
 ```
+**Section 1.3** |
+-
+`chapter-1/listing-1/1.3/main.tf`
+
+Adding more resources and arguments shown below:
+```
+provider "aws" {
+  region = "us-west-2"
+}
+ 
+data "aws_ami" "ubuntu" {
+  most_recent = true
+ 
+  filter {
+    name   = "name"
+    values = ["ubuntu/01images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"]
+  }
+ 
+  owners = ["099720109477"]
+}
+ 
+resource "aws_instance" "helloworld" {
+  ami           = data.aws_ami.ubuntu.id
+  instance_type = "t2.micro"
+  tags = {
+    Name = "HelloWorld"
+  }
+}
+```
+<!--
 `t plan`
 to check if everything works before applying.
 
@@ -153,4 +202,4 @@ aws_instance.hello-world: Destruction complete after 31s
 
 Destroy complete! Resources: 1 destroyed.
 mike@work listing-1.1 %
-```
+``` -->
