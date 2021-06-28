@@ -24,9 +24,9 @@ t destroy = command is a convenient way to destroy all remote objects managed by
 ### Chapter 1
 ##
 **Hello World!**  
-[**Documentation**](https://github.com/devdot4/terraform-in-action/tree/main/chapter-1/listing-1#chapter-1)
-|1.1|[main.tf](chapter-1/listing-1/1.1/main.tf)|
+[**Documentation**](https://github.com/devdot4/terraform-in-action/tree/main/chapter-1#chapter-1)
+|1.1|[main.tf](chapter-1/1.1/main.tf)|
 ----|-----------|
-|**1.2**|[**main.tf**](chapter-1/listing-1/1.2/main.tf)|
-|**1.3**|[**main.tf**](chapter-1/listing-1/1.3/main.tf)|
+|**1.2**|[**main.tf**](chapter-1/1.2/main.tf)|
+|**1.3**|[**main.tf**](chapter-1/1.3/main.tf)|
 ---
