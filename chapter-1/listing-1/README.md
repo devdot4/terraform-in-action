@@ -1,4 +1,4 @@
-# Chapter-1
+# Chapter - 1
 **Section 1.1** |
 -|
 `chapter-1/listing-1/1.1/main.tf` |
@@ -14,7 +14,7 @@ resource "aws_instance" "helloworld" {
 }
 ```
 This will work but it will ask you to input where you want to create EC2 (region).
-
+##
 **Section 1.2** |
 -|
 `chapter-1/listing-1/1.2/main.tf` |
@@ -33,6 +33,7 @@ resource "aws_instance" "hello-world" {
   }
 }
 ```
+##
 **Section 1.3** |
 -|
 `chapter-1/listing-1/1.3/main.tf` |
@@ -63,3 +64,4 @@ resource "aws_instance" "helloworld" {
 }
 ```
 This will query the most recent Ubuntu AMI.
+##
