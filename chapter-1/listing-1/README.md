@@ -141,7 +141,7 @@ aws_instance.hello-world: Creation complete after 45s [id=i-0d33f90ada7dcd2e7]
 Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 mike@work listing-1.1 %
 ```
-![1.1](1.1.png)
+![1.2](1.2/1.2.png)
 After the instance is made, you can safely do the following:
 `t destroy` + `yes` (or `t destroy $aa`)
 ```
