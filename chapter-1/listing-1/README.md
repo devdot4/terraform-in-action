@@ -1,7 +1,7 @@
 # Chapter-1
 **Section 1.1** |
--
-`chapter-1/listing-1/1.1/main.tf`
+-|
+`chapter-1/listing-1/1.1/main.tf` |
 
 Create a file called `main.tf` and add this snippet inside:
 ```
@@ -16,8 +16,8 @@ resource "aws_instance" "helloworld" {
 This will work but it will ask you to input where you want to create EC2 (region).
 
 **Section 1.2** |
--
-`chapter-1/listing-1/1.2/main.tf`
+-|
+`chapter-1/listing-1/1.2/main.tf` |
 
 We will add region module to hard-code our answer.
 ```
@@ -34,8 +34,8 @@ resource "aws_instance" "hello-world" {
 }
 ```
 **Section 1.3** |
--
-`chapter-1/listing-1/1.3/main.tf`
+-|
+`chapter-1/listing-1/1.3/main.tf` |
 
 Adding more resources and arguments shown below:
 ```
