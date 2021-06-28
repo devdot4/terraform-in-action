@@ -11,9 +11,11 @@ export $aa="-auto-approve"
 ```
 ---
 ## Chapter 1
-### Hello World!
-[README](https://github.com/devdot4/terraform-in-action/tree/main/chapter-1/listing-1.1#chapter-1)  
-[chapter-1/listing-1/1.2/**main.tf**](/chapter-1/listing-1/1.2/main.tf)
-```
-This exercise named "hello world" is all about making an EC2 instance by typing few lines of code, and deploying it with terraform.
-```
+##
+**Hello World!**  
+[**Documentation**](https://github.com/devdot4/terraform-in-action/tree/main/chapter-1/listing-1#chapter-1)
+|1.1|[main.tf](chapter-1/listing-1/1.1/main.tf)|
+----|-----------|
+|**1.2**|[**main.tf**](chapter-1/listing-1/1.2/main.tf)|
+|**1.3**|[**main.tf**](chapter-1/listing-1/1.3/main.tf)|
+---
