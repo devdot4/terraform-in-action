@@ -17,7 +17,7 @@ t init    = command is used to initialize a working directory containing terrafo
 t show    = command is used to provide human-readable output from a state or plan file.
 t plan    = command creates an execution plan.
 t apply   = command executes the actions proposed in a terraform plan.
-t destroy = command is a convenient way to destroy all remote objects managed by a particular Terraform configuration.
+t destroy = command is a convenient way to destroy all remote objects managed by a particular terraform configuration.
 ```
 
 ---
