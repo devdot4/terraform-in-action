@@ -30,3 +30,14 @@ t destroy = command is a convenient way to destroy all remote objects managed by
 |**1.2**|[**main.tf**](chapter-1/1.2/main.tf)|
 |**1.3**|[**main.tf**](chapter-1/1.3/main.tf)|
 ---
+### Chapter 2
+##
+**Lifecycle of a Terraform Resource**  
+[**Documentation**](https://github.com/devdot4/terraform-in-action/tree/main/chapter-2#chapter-2)
+|2.1|[main.tf](chapter-2/2.1/main.tf)|
+----|-----------|
+|**2.2**|[**main.tf**](chapter-2/2.2/main.tf)|
+|**2.3**|[**main.tf**](chapter-2/2.3/main.tf)|
+|**2.4**|[**main.tf**](chapter-2/2.4/main.tf)|
+|**2.5**|[**main.tf**](chapter-2/2.5/main.tf)|
+---
